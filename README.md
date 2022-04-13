@@ -5,7 +5,7 @@
 ### Models:
 - Post -> date rationale:text
 x User -> devise
-- Admin User -> STI
+- Admin User -> Single Table Inheritance
 
 ### Features:
 
