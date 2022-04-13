@@ -1,17 +1,11 @@
 ## Overtime App
 
-****Key requirement: company needs documentation that salaried employees did or did not get overtime each week.****
+## Key requirement: company needs documentation that salaried employees did or did not get overtime each week. ##
 
 ### Models:
-#### Post
-date
-rationale
-
-#### User
-devise
-
-#### Admin User
-STI
+- Post -> date rationale:text
+x User -> devise
+- Admin User -> STI
 
 ### Features:
 
