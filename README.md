@@ -2,24 +2,24 @@
 
 ****Key requirement: company needs documentation that salaried employees did or did not get overtime each week.****
 
-##Models:
-### Post
+### Models:
+#### Post
 date
 rationale
 
-### User
+#### User
 devise
 
-### Admin User
+#### Admin User
 STI
 
-## Features:
+### Features:
 
-1. Approval workflow.
-2. SMS / Whatsapp Messages -> Include link to approval or overtime.
-3. Admin Dashboard.
-4. Email summary to Admin Users (menagers) for approval.
-5. Need documentation for no overtime.
+- Approval workflow.
+- SMS / Whatsapp Messages -> Include link to approval or overtime.
+- Admin Dashboard.
+- Email summary to Admin Users (menagers) for approval.
+- Need documentation for no overtime.
 
 ### UI:
-Bootstrap
+- Bootstrap
