@@ -18,5 +18,5 @@ x Admin User -> Single Table Inheritance
 ### UI:
 - Bootstrap
 
-## Refactor TODOS:
-- Refactor user association integration test in post_spec
+### Refactor TODOS:
+- Refactor user association integration test in features/post_spec
