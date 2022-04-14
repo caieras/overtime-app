@@ -14,6 +14,10 @@ describe 'navigate' do
   end
 
   describe 'creation' do
+    before do
+      visit new_post_path
+    end
+
     it 'has a form that can be reached' do
       visit new_post_path
       expect(page.status_code).to eq 200
@@ -25,14 +29,6 @@ describe 'navigate' do
       fill_in 'post[rationale]', with: 'Something'
       click_on 'Save'
       expect(page).to have_content('Something')
-    end
-
-    it 'will have a user associated with it' do
-      fill_in 'post[date]', with: Date.today
-      fill_in 'post[rationale]', with: 'User Association'
-      click_on 'Save'
-
-      expect(User.last.posts.last.rationale).to eql('User Association')
     end
   end
 end
