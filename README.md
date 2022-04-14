@@ -3,9 +3,9 @@
 ## Key requirement: company needs documentation that salaried employees did or did not get overtime each week. ##
 
 ### Models:
-- Post -> date rationale:text
-x User -> devise
-x Admin User -> Single Table Inheritance
+- x Post -> date rationale:text
+- x User -> devise
+- x Admin User -> Single Table Inheritance
 
 ### Features:
 
