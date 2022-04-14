@@ -1,10 +1,9 @@
 class PostsController < ApplicationController
-  before_action :set_post, only: [:show]
-
   def index
   end
 
   def show
+    @post = Post.find(params[:id])
   end
 
   def new
@@ -26,9 +25,4 @@ class PostsController < ApplicationController
   def post_params
     params.require(:post).permit(:date, :rationale)
   end
-
-  def set_post
-    @post = Post.find(params[:id])
-  end
-
 end
