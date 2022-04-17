@@ -261,7 +261,7 @@ DEPENDENCIES
   database_cleaner
   devise (~> 4.2)
   jbuilder (~> 2.7)
-  jquery-rails (~> 4.4)
+  jquery-rails
   listen (~> 3.3)
   pg (~> 1.1)
   puma (~> 5.0)
@@ -271,7 +271,7 @@ DEPENDENCIES
   sass-rails (>= 6)
   selenium-webdriver (>= 4.0.0.rc1)
   spring
-  sprockets-rails (~> 3.0, >= 3.0.4)
+  sprockets-rails
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 4.1.0)

@@ -12,6 +12,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.4', require: false
 
+
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails', '~> 5.1.0'
@@ -34,6 +35,6 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise', '~> 4.2'
-gem 'sprockets-rails', '~> 3.0', '>= 3.0.4'
+gem 'sprockets-rails', :require => 'sprockets/railtie'
 gem 'bootstrap', '~> 5.1.3'
-gem 'jquery-rails', '~> 4.4'
+gem 'jquery-rails'
